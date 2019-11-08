@@ -1,0 +1,128 @@
+/* para la pagina de index */
+
+.contenedorPrincipal{
+  margin: 0 auto;
+  border:gray 1px solid;
+  width: 960px;
+  /* padding: 1% 3% 0 3%; */
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a{
+  text-decoration-line: none;
+  color:black;
+}
+
+header{
+  border-bottom: 1px;
+  margin:0 auto;
+  /* float: left; */
+
+  padding-bottom: 20px;
+  width: 91%;
+   /* background-color: yellow; */
+  border-bottom: gray 1px solid;
+}
+
+
+
+#contenedorB{
+  float: left;
+width: 300px;
+padding: 15px;
+/* background-color: yellow; */
+box-sizing: border-box;
+}
+
+
+#contenedorB li{
+  /* background-color: red; */
+list-style-type: none;
+font-size: 20px;
+}
+
+
+main{
+  width: 610px;
+  float:right;
+  border-left: gray 1px solid;
+  padding: 15px;
+  /* background-color: orange; */
+  box-sizing:border-box;
+
+}
+ main section img{
+  float:right;
+}
+
+/* pie */
+
+footer{
+  padding: 20px;
+  width: 100%;
+height: 100px;
+  overflow: hidden;
+  background-color: rgba(238, 225, 240);
+
+}
+footer img{
+  height: 100%;
+}
+footer .contacto{
+  float:right;
+  padding-top: 2%;
+  padding-right: 7%;
+  text-align: right;
+
+}
+footer a{
+  color:white;
+}
+
+main section p{
+  margin-left: 20px;
+}
+main section b{
+  margin-left: 20px;
+}
+
+main section .volver{
+  font-size: 18px;
+  margin-left: 0;
+}
+
+
+
+
+/* para el html de contacto */
+.cont_Prin_Contacto{
+  margin: 0 auto;
+  border:#DFCF09 1px solid;
+  width: 760px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: sans-serif;
+}
+label{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button{
+border-radius: 10px;
+width: 330px;
+height: 35px;
+}
+
+#btnEnviar{
+  background-color: #DFCF09;
+  color:white;
+border:none;
+}
+#btnResetear{
+  background-color: white;
+  color:#DFCF09;
+  border:solid 1px #DFCF09;
+}
